@@ -1,0 +1,142 @@
+.container-productos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 100%;
+    min-height: 95%;
+    max-height: 95%;
+}
+
+.img-card-pirulines {
+    height: 325.33px;
+    min-height: 325.33px;
+    max-height: 325.33px;
+    overflow: hidden;
+
+}
+
+.boton-agregar {
+    width: 100%;
+
+}
+
+.card-body-cliente {
+    height: 100%;
+}
+
+.card-body h6 {
+    height: 100%;
+    max-height: 40px;
+}
+
+
+/*Div que contiene los botones de cantidad y el input de cantidad para los productos*/
+.quantity-selector {
+    display: flex;
+    align-items: center;
+
+
+}
+
+/*input de las cantidades*/
+.quantity-selector input {
+    width: 100%;
+    text-align: center;
+}
+
+.card-header {
+    font-weight: bold;
+
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+
+.container-carousel {
+    height: 100%;
+    max-height: 800px;
+    width: 100%;
+    /* Ajusta el ancho del carrusel */
+    margin: auto;
+    /* Centra el carrusel */
+    overflow: hidden;
+    /* Oculta el contenido que se salga */
+    position: relative;
+}
+
+#carouselId {
+    display: flex;
+    /* Coloca las imágenes en una fila horizontal */
+    transition: transform 0.5s ease-in-out;
+    /* Suaviza el desplazamiento */
+}
+
+/*    .carousel {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .carousel-inner {
+        height: 100%;
+        display: flex;
+    }
+
+    .carousel-mosaic {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        gap: 10px;
+    }*/
+.img-carousel {
+    width: 100%;
+    height: 800px;
+    max-height: 800px;
+}
+
+.carousel-mosaic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.carousel-mosaic img {
+    height: 100%;
+    object-fit: cover;
+    width: 32%;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 13rem;
+}
+
+.footer-links {
+    display: block;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 768px) {
+    .carousel-mosaic img {
+        width: 32%;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-mosaic img {
+        width: 32%;
+    }
+}
